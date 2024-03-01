@@ -18,8 +18,8 @@ body {
 h2{
     display: flex;
     justify-content: center;
-     background-color: rgba(255, 254, 254, 0.123);
-    color: #696967de;
+    background-color: rgba(255, 254, 254, 0.123);
+    color: #4d4d20de;
     padding: 0.5rem;
     border-radius: 0.75rem;
     backdrop-filter: blur(10px);
@@ -28,8 +28,8 @@ h2{
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.781);
-    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.575);
+    padding: 1rem;
     border-radius: 1rem;
     width: 90%; /* Take up 90% of the viewport width */
     max-width: 400px; /* Limit maximum width for larger screens */
@@ -77,6 +77,7 @@ form input {
 .dropdown i {
     font-size: 1.5rem;
     margin-top: 1rem;
+    cursor: pointer;
 }
 
 .select-container img {
@@ -101,6 +102,11 @@ form input {
     margin: 2rem 0 2rem 0;
 }
 
+#last-update{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: rgb(71, 69, 69);
+}
 
 form button {
     height: 3rem;
